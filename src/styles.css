@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+i.ph.ph-info.po-field-icon.po-fonts-icon.ng-star-inserted {
+  display: none;
+}
+
+.po-page-login-panel-content {
+  margin: 0;
+  padding: 0;
+}
+
+.po-page-background-secondary-logo-centered {
+  display: none;
+}
+
+.po-page-login-panel {
+  background-color: white;
+  padding: 0;
+  padding-left: 3.5rem;
+}
+
+header.po-page-login-header {
+  margin-right: 2rem;
+}

@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .start-flex {
   align-items: start;
   justify-content: start;
@@ -17,4 +18,8 @@
 
 .flex-row {
   flex-direction: column;
+}
+
+.flex-row-correct {
+  flex-direction: row;
 }

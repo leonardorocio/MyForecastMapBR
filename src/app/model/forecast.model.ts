@@ -13,7 +13,13 @@ export interface IForecast {
   sunset: string;
   moon_phase: string;
   condition_slug: string;
+  condition: string;
   timezone: string;
+  weekday: string;
+  min: number;
+  max: number;
+  city_name: string;
+  city: string;
   forecast: Omit<IForecast, "forecast">[];
 }
 

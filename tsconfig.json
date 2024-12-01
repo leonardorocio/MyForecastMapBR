@@ -5,24 +5,18 @@
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
-
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
+    "target": "ES6",
+    "module": "ESNext",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2023", "dom"]
   },
   "angularCompilerOptions": {
     "enableIvy": true,
